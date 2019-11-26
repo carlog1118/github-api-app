@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Find a Github Member's Repos</h1>
+    </header>
+    <main>
+        <form class="js-form">
+            <label for="username">Enter a username:</label>
+            <input type="text" name="username" class="js-username">
+            <input type="submit">
+        </form>    
+        <p class="js-error-message"></p>
+        <section class="results hidden">
+            <h2>Results</h2>
+            <ul class="list">
+            </ul>
+        </section>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
